@@ -1,0 +1,14 @@
+/* @theme mytheme */
+@import "default";
+
+section{
+  font-family: "Pending Mono HWNF";
+}
+
+/* フッターを非表示にする設定 */
+/* markdownに<!-- _class: no-footer --> をいれる */
+section.no-footer {
+  footer {
+    display: none;
+  }
+}
