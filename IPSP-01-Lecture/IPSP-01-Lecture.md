@@ -1,6 +1,6 @@
 ---
 marp: true
-theme: default
+theme: mytheme
 paginate: true
 class: lead
 math: katex
