@@ -9,12 +9,14 @@ header: 情報学課題解決実習2A
 footer: TouchDesigner | T.Shimizu © 2025
 ---
 
-# 第1回  
-## TouchDesignerの基本操作とインタラクション入門
+# 情報学課題解決実習2A
+## 第1回  TouchDesignerの基本操作とインタラクション入門
+
+授業担当：情報学部 情報学科 情報メディ専攻 清水 哲也
 
 ---
 
-## 本日の目標
+# 本日の目標
 
 - TouchDesignerの基本概念とUIに慣れる  
 - 画像・動画・カメラ映像の表示を行う  
@@ -23,7 +25,7 @@ footer: TouchDesigner | T.Shimizu © 2025
 
 ---
 
-## TouchDesignerとは？
+# TouchDesignerとは？
 
 - Derivative社が開発した**ノードベースのビジュアルプログラミング環境**
 - 主な用途：
@@ -34,7 +36,7 @@ footer: TouchDesigner | T.Shimizu © 2025
 
 ---
 
-## UI構成と基本操作
+# UI構成と基本操作
 
 - Network Editor（ノード構成画面）
 - Parameters パネル（ノードごとの設定）
@@ -47,8 +49,7 @@ footer: TouchDesigner | T.Shimizu © 2025
 
 ---
 
-## 主なオペレータ（OP）
-
+# 主なオペレータ（OP）
 
 
 | 種類 | 説明・用途 | 例 |
@@ -61,21 +62,21 @@ footer: TouchDesigner | T.Shimizu © 2025
 
 ---
 
-## 映像表示の基本（TOP）
+# 映像表示の基本（TOP）
 
 1. `Movie File In TOP`で画像・動画を読み込み  
 2. `Null TOP` → `Out TOP`へ接続
 
 ---
 
-## Webカメラ映像を表示
+# Webカメラ映像を表示
 
 - `Video Device In TOP`でWebカメラ映像を取得  
 - `Null TOP` → `Out TOP`に接続
 
 ---
 
-## マウス入力の活用（CHOP）
+# マウス入力の活用（CHOP）
 
 - `Mouse In CHOP` で座標データ取得  
 - `Null CHOP`を挟んで、ビジュアルのパラメータにリンク  
@@ -85,7 +86,7 @@ footer: TouchDesigner | T.Shimizu © 2025
 
 ---
 
-## 音声入力の活用（CHOP）
+# 音声入力の活用（CHOP）
 
 - `Audio Device In CHOP` → `Analyze CHOP` で音量など抽出  
 - 音の大きさでサイズ・色・動きに変化を加える  
@@ -93,7 +94,7 @@ footer: TouchDesigner | T.Shimizu © 2025
 
 ---
 
-## Parameter Linkingの方法
+# Parameter Linkingの方法
 
 - **Drag & Dropで接続**
 - **Export CHOP**: 緑いワイヤー  
@@ -101,7 +102,7 @@ footer: TouchDesigner | T.Shimizu © 2025
 
 ---
 
-## ハンズオン課題①（カメラ）
+# ハンズオン課題①（カメラ）
 
 🎯 **Webカメラの映像にエフェクトを加えよう**
 
@@ -110,7 +111,7 @@ footer: TouchDesigner | T.Shimizu © 2025
 
 ---
 
-## ハンズオン課題②（音）
+# ハンズオン課題②（音）
 
 🎯 **音に反応してビジュアルが変わる表現を作ろう**
 
@@ -120,7 +121,7 @@ footer: TouchDesigner | T.Shimizu © 2025
 
 ---
 
-## ハンズオン課題③（マウス）
+# ハンズオン課題③（マウス）
 
 🎯 **マウス位置で映像の色を変える**
 
@@ -129,7 +130,7 @@ footer: TouchDesigner | T.Shimizu © 2025
 
 ---
 
-## 発展例：マウス＋音を組み合わせる
+# 発展例：マウス＋音を組み合わせる
 
 - マウス：位置に応じて色・位置変更  
 - 音声：サイズや回転の変化に利用  
@@ -137,14 +138,14 @@ footer: TouchDesigner | T.Shimizu © 2025
 
 ---
 
-## 質疑応答・確認
+# 質疑応答・確認
 
 - 接続がうまくいかないときは `Null TOP` や `Math CHOP` を確認  
 - 各ノードの `Viewer Active`（右上）をONにして状況確認
 
 ---
 
-## まとめ
+# まとめ
 
 - TouchDesignerの基本的な使い方（TOP / CHOP）を習得  
 - マウスやマイクなどの入力に反応する作品を作成  
@@ -152,7 +153,7 @@ footer: TouchDesigner | T.Shimizu © 2025
 
 ---
 
-## 次回予告
+# 次回予告
 
 **第2回：アニメーション制御とUIの活用**
 
