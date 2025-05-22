@@ -5,6 +5,11 @@ section{
   font-family: "Pending Mono HWNF";
 }
 
+h1{
+  position: absolute;
+  left: 90px; top: 80px;
+}
+
 /* フッターを非表示にする設定 */
 /* markdownに<!-- _class: no-footer --> をいれる */
 section.no-footer {
